@@ -1,0 +1,107 @@
+IMPORTANTE: Para la resolución de cada ejercicio se deberá generar una función desde un botón en el HTML (generar un botón por cada  ejercicio)
+______________________________________________________________
+** EJERCICIO 1: **
+Crear una constiable con un valor numérico libre que debe ser ingresado por el usuario:
+const cantidadDeGatos = 10;
+Esto debe generar en la consola lo siguiente:
+```
+Gato #1: 😺
+Gato #2: 😸
+Gato #3: 😹
+Gato #4: 😺
+Gato #5: 😸
+Gato #6: 😹
+Gato #7: 😺
+Gato #8: 😸
+Gato #9: 😹
+Gato #10: 😺
+```
+Noten que son 3 emojis distintos que se se van intercalando.
+
+La consola reflejará los cambios según el contenido de la constiable.
+const cantidadDeGatos = 1;
+```
+Gato #1: 😺
+```
+
+const cantidadDeGatos = 4;
+```
+Gato #1: 😺
+Gato #2: 😸
+Gato #3: 😹
+Gato #4: 😺
+```
+
+(Siempre son los mismos 3 emojis intercalados).
+
+** EJERCICIO 2: **
+
+Crear 2 constiables con valores numéricos libres:
+const cantidadDeGatos = 5;
+const cantidadDePasos = 3;
+A partir de esas 2 constiables, la consola debe mostrar lo siguiente:
+```
+Gato #1: 🐈 🐾🐾🐾
+Gato #2: 🐈 🐾🐾🐾
+Gato #3: 🐈 🐾🐾🐾
+Gato #4: 🐈 🐾🐾🐾
+Gato #5: 🐈 🐾🐾🐾 
+```
+
+Si se utilizan otros valores, el resultado en la consola debe adaptarse.
+const cantidadDeGatos = 2;
+const cantidadDePasos = 8;
+```
+Gato #1: 🐈 🐾🐾🐾🐾🐾🐾🐾🐾
+Gato #2: 🐈 🐾🐾🐾🐾🐾🐾🐾🐾
+```
+
+
+const cantidadDeGatos = 10;
+const cantidadDePasos = 4;
+```
+Gato #1: 🐈 🐾🐾🐾🐾
+Gato #2: 🐈 🐾🐾🐾🐾
+Gato #3: 🐈 🐾🐾🐾🐾
+Gato #4: 🐈 🐾🐾🐾🐾
+Gato #5: 🐈 🐾🐾🐾🐾
+Gato #6: 🐈 🐾🐾🐾🐾
+Gato #7: 🐈 🐾🐾🐾🐾
+Gato #8: 🐈 🐾🐾🐾🐾
+Gato #9: 🐈 🐾🐾🐾🐾
+Gato #10: 🐈 🐾🐾🐾🐾
+```
+
+
+** EJERCICIO 3 **
+Adaptar el ejercicio anterior para que se muestren 2 gatos alternadamente:
+const cantidadDeGatos = 10;
+const cantidadDePasos = 4;
+```
+Gato #1: 🐈 🐾🐾🐾🐾
+Gato #2: 🐈‍⬛ 🐾🐾🐾🐾
+Gato #3: 🐈 🐾🐾🐾🐾
+Gato #4: 🐈‍⬛ 🐾🐾🐾🐾
+Gato #5: 🐈 🐾🐾🐾🐾
+Gato #6: 🐈‍⬛ 🐾🐾🐾🐾
+Gato #7: 🐈 🐾🐾🐾🐾
+Gato #8: 🐈‍⬛ 🐾🐾🐾🐾
+Gato #9: 🐈 🐾🐾🐾🐾
+Gato #10: 🐈‍⬛ 🐾🐾🐾🐾
+```
+
+** EJERCICIO 4 **
+Desarrollar una función que cuente la cantidad de veces que se encuentra una letra ingresada en un input (solo se puede ingresar 
+una sola letra) por el usuario en la frase provista debajo.
+El resultado se debe mostrar en un div (colocar estilos css a gusto). Indicando la cantidad de occurrencias en la búsqueda. **No se debe hacer diferencias entre
+letra minúscula ni mayúsculas
+
+FRASE:
+```
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae sequi dolorem hic fuga distinctio exercitationem repellat possimus aperiam, minus iusto numquam excepturi assumenda quaerat autem ducimus sint nostrum facere magnam.
+Eveniet amet, consequatur at blanditiis sint neque? Adipisci repudiandae fugiat nobis nostrum autem nemo incidunt ipsum ratione cum. Nam exercitationem quo sapiente impedit deleniti reprehenderit, sequi maiores! Necessitatibus, id magnam?
+Commodi soluta porro voluptatum, veniam vero aut possimus, consequuntur ea facilis autem ab eius itaque perspiciatis veritatis quas harum excepturi reprehenderit ipsa, eos molestias fugiat laudantium asperiores magnam obcaecati. Ut!
+```
+Desarrollar una función que cuente la cantidad de veces que se encuentra una letra ingresada en un input (solo se puede ingresar 
+una sola letra) por el usuario en la frase provista debajo.No se debe hacer diferencias entre
+letra minúscula ni mayúsculas
